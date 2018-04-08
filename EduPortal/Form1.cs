@@ -16,5 +16,18 @@ namespace EduPortal
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //  public string EditResult
+            //{
+            //    get { return editTextBox.Text; } //whatever value you want to return
+            //}
+        }
+
+        private void settings1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
