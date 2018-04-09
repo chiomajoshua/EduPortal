@@ -78,6 +78,12 @@
     <Compile Include="UserControls\AddStudent.Designer.cs">
       <DependentUpon>AddStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\AllStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AllStudents.Designer.cs">
+      <DependentUpon>AllStudents.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Footer.cs">
       <SubType>UserControl</SubType>
     </Compile>
