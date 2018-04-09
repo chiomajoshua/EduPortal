@@ -29,5 +29,11 @@ namespace EduPortal
         {
 
         }
+
+        private void settings1_Load_1(object sender, EventArgs e)
+        {
+            //var m = (panel3.Size.Width - settings1.Size.Width) / 2;
+            //settings1.Location = new Point(m, settings1.Location.Y);
+        }
     }
 }

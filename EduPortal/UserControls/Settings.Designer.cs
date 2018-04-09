@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -54,6 +55,9 @@
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuMetroTextbox8 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuMetroTextbox7 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuMetroTextbox6 = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -64,6 +68,7 @@
             this.bunifuCustomLabel23 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator3 = new Bunifu.Framework.UI.BunifuSeparator();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel12 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -74,24 +79,19 @@
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -102,7 +102,7 @@
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1467, 838);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1681, 838);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -111,14 +111,26 @@
             this.panel1.Controls.Add(this.bunifuCustomLabel1);
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1461, 52);
+            this.panel1.Size = new System.Drawing.Size(1672, 52);
             this.panel1.TabIndex = 0;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox5.Image = global::EduPortal.Properties.Resources.Cancel_20px;
+            this.pictureBox5.Location = new System.Drawing.Point(1629, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(43, 52);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
             this.bunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(40, 18);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(86, 20);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(157, 17);
             this.bunifuCustomLabel1.TabIndex = 0;
@@ -131,7 +143,7 @@
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 61);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1461, 774);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1672, 774);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
             // panel2
@@ -139,7 +151,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(574, 771);
+            this.panel2.Size = new System.Drawing.Size(666, 771);
             this.panel2.TabIndex = 0;
             // 
             // panel3
@@ -163,7 +175,7 @@
             this.panel3.Controls.Add(this.bunifuCustomLabel3);
             this.panel3.Controls.Add(this.bunifuCustomLabel2);
             this.panel3.Controls.Add(this.bunifuSeparator1);
-            this.panel3.Location = new System.Drawing.Point(40, 19);
+            this.panel3.Location = new System.Drawing.Point(86, 19);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(476, 733);
             this.panel3.TabIndex = 0;
@@ -276,14 +288,15 @@
             // 
             // bunifuMetroTextbox5
             // 
+            this.bunifuMetroTextbox5.AutoScroll = true;
             this.bunifuMetroTextbox5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuMetroTextbox5.BorderColorFocused = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox5.BorderColorIdle = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox5.BorderColorMouseHover = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox5.BorderThickness = 1;
-            this.bunifuMetroTextbox5.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.bunifuMetroTextbox5.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.bunifuMetroTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox5.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox5.isPassword = false;
             this.bunifuMetroTextbox5.Location = new System.Drawing.Point(55, 485);
@@ -307,14 +320,15 @@
             // 
             // bunifuMetroTextbox4
             // 
+            this.bunifuMetroTextbox4.AutoScroll = true;
             this.bunifuMetroTextbox4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuMetroTextbox4.BorderColorFocused = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox4.BorderColorIdle = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox4.BorderColorMouseHover = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox4.BorderThickness = 1;
-            this.bunifuMetroTextbox4.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.bunifuMetroTextbox4.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.bunifuMetroTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox4.isPassword = false;
             this.bunifuMetroTextbox4.Location = new System.Drawing.Point(55, 387);
@@ -338,14 +352,15 @@
             // 
             // bunifuMetroTextbox3
             // 
+            this.bunifuMetroTextbox3.AutoScroll = true;
             this.bunifuMetroTextbox3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox3.BorderThickness = 1;
-            this.bunifuMetroTextbox3.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.bunifuMetroTextbox3.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.bunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox3.isPassword = false;
             this.bunifuMetroTextbox3.Location = new System.Drawing.Point(55, 289);
@@ -369,14 +384,15 @@
             // 
             // bunifuMetroTextbox2
             // 
+            this.bunifuMetroTextbox2.AutoScroll = true;
             this.bunifuMetroTextbox2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox2.BorderThickness = 1;
-            this.bunifuMetroTextbox2.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.bunifuMetroTextbox2.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox2.isPassword = false;
             this.bunifuMetroTextbox2.Location = new System.Drawing.Point(55, 191);
@@ -400,14 +416,15 @@
             // 
             // bunifuMetroTextbox1
             // 
+            this.bunifuMetroTextbox1.AutoScroll = true;
             this.bunifuMetroTextbox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Transparent;
             this.bunifuMetroTextbox1.BorderThickness = 1;
-            this.bunifuMetroTextbox1.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.bunifuMetroTextbox1.characterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox1.isPassword = false;
             this.bunifuMetroTextbox1.Location = new System.Drawing.Point(55, 94);
@@ -458,9 +475,9 @@
             // 
             this.panel4.Controls.Add(this.panel6);
             this.panel4.Controls.Add(this.panel5);
-            this.panel4.Location = new System.Drawing.Point(583, 3);
+            this.panel4.Location = new System.Drawing.Point(675, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(867, 759);
+            this.panel4.Size = new System.Drawing.Size(991, 759);
             this.panel4.TabIndex = 1;
             // 
             // panel6
@@ -479,10 +496,43 @@
             this.panel6.Controls.Add(this.bunifuCustomLabel22);
             this.panel6.Controls.Add(this.bunifuCustomLabel23);
             this.panel6.Controls.Add(this.bunifuSeparator3);
-            this.panel6.Location = new System.Drawing.Point(46, 406);
+            this.panel6.Location = new System.Drawing.Point(108, 406);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(790, 346);
             this.panel6.TabIndex = 2;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::EduPortal.Properties.Resources.Hide_20px;
+            this.pictureBox4.Location = new System.Drawing.Point(646, 223);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 22;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::EduPortal.Properties.Resources.Hide_20px;
+            this.pictureBox3.Location = new System.Drawing.Point(646, 160);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 21;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::EduPortal.Properties.Resources.Hide_20px;
+            this.pictureBox2.Location = new System.Drawing.Point(646, 91);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // bunifuMetroTextbox8
             // 
@@ -651,10 +701,20 @@
             this.panel5.Controls.Add(this.bunifuCustomLabel15);
             this.panel5.Controls.Add(this.bunifuCustomLabel17);
             this.panel5.Controls.Add(this.bunifuSeparator2);
-            this.panel5.Location = new System.Drawing.Point(46, 20);
+            this.panel5.Location = new System.Drawing.Point(108, 20);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(790, 380);
             this.panel5.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EduPortal.Properties.Resources.User_100px;
+            this.pictureBox1.Location = new System.Drawing.Point(28, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(163, 159);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
             // 
             // bunifuCustomLabel10
             // 
@@ -757,72 +817,18 @@
             this.bunifuElipse2.ElipseRadius = 5;
             this.bunifuElipse2.TargetControl = this.panel5;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::EduPortal.Properties.Resources.Hide_20px;
-            this.pictureBox4.Location = new System.Drawing.Point(646, 223);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 22;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::EduPortal.Properties.Resources.Hide_20px;
-            this.pictureBox3.Location = new System.Drawing.Point(646, 160);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 21;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::EduPortal.Properties.Resources.Hide_20px;
-            this.pictureBox2.Location = new System.Drawing.Point(646, 91);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::EduPortal.Properties.Resources.User_100px;
-            this.pictureBox1.Location = new System.Drawing.Point(28, 59);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(163, 159);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox5.Image = global::EduPortal.Properties.Resources.Cancel_20px;
-            this.pictureBox5.Location = new System.Drawing.Point(1418, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(43, 52);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
             // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Settings";
-            this.Size = new System.Drawing.Size(1467, 838);
+            this.Size = new System.Drawing.Size(1681, 838);
             this.Load += new System.EventHandler(this.Settings_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -830,13 +836,12 @@
             this.panel4.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }

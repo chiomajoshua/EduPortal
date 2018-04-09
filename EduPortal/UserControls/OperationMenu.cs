@@ -105,5 +105,33 @@ namespace EduPortal.UserControls
                 bunifuFlatButton20.Iconimage_right = Properties.Resources.More_Than_20px;
             }
         }
+
+        private void bunifuFlatButton26_Click(object sender, EventArgs e)
+        {
+            if (settings1.Visible == false)
+            {
+                bunifuTransition1.ShowSync(settings1);
+                bunifuTransition2.HideSync(addStudent1);
+            }
+            else
+            {
+                bunifuTransition2.HideSync(settings1);
+
+            }
+        }
+
+        private void bunifuFlatButton6_Click(object sender, EventArgs e)
+        {
+            if (addStudent1.Visible == false)
+            {
+                bunifuTransition1.ShowSync(addStudent1);
+                bunifuTransition2.HideSync(settings1);
+            }
+            else
+            {
+                bunifuTransition2.HideSync(addStudent1);
+
+            }
+        }
     }
 }

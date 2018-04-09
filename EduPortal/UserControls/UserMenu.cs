@@ -21,5 +21,20 @@ namespace EduPortal.UserControls
         {
 
         }
+
+        private void bunifuCustomLabel11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

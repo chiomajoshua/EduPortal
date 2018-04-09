@@ -56,7 +56,15 @@ namespace EduPortal.UserControls
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (InfoBox.InformationBox.Show("Do You Really Want To Exit The Application?", "EduPortal || Confirm Action", InfoBox.InformationBoxButtons.YesNo, InfoBox.InformationBoxIcon.Question).ToString() == "No")
+            {
+                
+            }
+            else
+            {
+                Application.ExitThread();
+               Application.Exit();
+            }
         }
     }
 }
