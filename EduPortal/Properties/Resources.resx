@@ -118,73 +118,124 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Training_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Training_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cancel_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Cancel_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Search_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Search_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Settings_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Settings_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Graduatelight_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Graduatelight_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Graduate_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Drawables\Graduate_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dropdownwhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\dropdownwhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Accounting_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Accounting_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="More Than_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\More Than_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Course Assign_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Course Assign_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Classroom_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Classroom_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Students_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Students_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Books_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Books_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Parenting_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Parenting_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Info_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Info_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Classroomgold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Classroomgold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hide_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Drawables\Hide_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Attendance_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Drawables\Attendance_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Settings_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Settings_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="downExpand Arrow_20px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Drawables\downExpand Arrow_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Attendancegold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Attendancegold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Accounting_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Accounting_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Books_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Books_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Info_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Parenting_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Parenting_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="More Thanwhite_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\More Thanwhite_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logger_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Logger_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Cancel_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dropdownwhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\dropdownwhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booksgold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Booksgold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Course Assign_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Course Assign_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Parentinggold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Parentinggold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="More Than_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\More Than_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Accountinggold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Accountinggold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Workflowgold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Workflowgold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settingsgold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Settingsgold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\User_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="changepassword_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\changepassword_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="downExpand Arrow_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Drawables\downExpand Arrow_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downExpandArrowgold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\downExpandArrowgold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Attendance_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Attendance_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graduatelight_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Graduatelight_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Course Assigngold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Course Assigngold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Classroom_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Classroom_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Training_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Training_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Traininggold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Traininggold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboardgold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\dashboardgold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Workflow_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Drawables\Workflow_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="User_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Studentsgold_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Studentsgold_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Search_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graduate_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Graduate_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Students_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Drawables\Students_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_100px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Drawables\User_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

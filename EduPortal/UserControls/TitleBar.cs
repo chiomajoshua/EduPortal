@@ -26,5 +26,15 @@ namespace EduPortal.UserControls
         {
 
         }
+
+        private void profile1_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void profile1_Click_1(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

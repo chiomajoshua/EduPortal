@@ -108,29 +108,46 @@ namespace EduPortal.UserControls
 
         private void bunifuFlatButton26_Click(object sender, EventArgs e)
         {
-            if (settings1.Visible == false)
+            switch (settings1.Visible)
             {
-                bunifuTransition1.ShowSync(settings1);
-                bunifuTransition2.HideSync(addStudent1);
-            }
-            else
-            {
-                bunifuTransition2.HideSync(settings1);
-
+                case false:
+                    settings1.Visible = true;
+                    addStudent1.Visible = false;
+                    allStudents1.Visible = false;
+                    break;
+                default:
+                    settings1.Visible = false;
+                    break;
             }
         }
 
         private void bunifuFlatButton6_Click(object sender, EventArgs e)
         {
-            if (addStudent1.Visible == false)
+            switch (addStudent1.Visible)
             {
-                bunifuTransition1.ShowSync(addStudent1);
-                bunifuTransition2.HideSync(settings1);
+                case false:
+                    addStudent1.Visible = true;
+                    settings1.Visible = false;
+                    allStudents1.Visible = false;
+                    break;
+                default:
+                    addStudent1.Visible = false;
+                    break;
             }
-            else
-            {
-                bunifuTransition2.HideSync(addStudent1);
+        }
 
+        private void bunifuFlatButton8_Click(object sender, EventArgs e)
+        {
+            switch (allStudents1.Visible)
+            {
+                case false:
+                    addStudent1.Visible = false;
+                    settings1.Visible = false;
+                    allStudents1.Visible = true;
+                    break;
+                default:
+                    allStudents1.Visible = false;
+                    break;
             }
         }
     }

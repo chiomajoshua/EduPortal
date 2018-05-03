@@ -70,6 +70,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserControls\AddStudent.cs">
@@ -90,6 +102,18 @@
     <Compile Include="UserControls\Footer.Designer.cs">
       <DependentUpon>Footer.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MyMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MyMenu.Designer.cs">
+      <DependentUpon>MyMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\OperationMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -108,6 +132,24 @@
     <Compile Include="UserControls\Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\StudentPromotion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\StudentPromotion.Designer.cs">
+      <DependentUpon>StudentPromotion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Teachers\AddTeacher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Teachers\AddTeacher.Designer.cs">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Teachers\AllTeachers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Teachers\AllTeachers.Designer.cs">
+      <DependentUpon>AllTeachers.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\TitleBar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -120,8 +162,20 @@
     <Compile Include="UserControls\UserMenu.Designer.cs">
       <DependentUpon>UserMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserOptions.Designer.cs">
+      <DependentUpon>UserOptions.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -136,8 +190,17 @@
     <EmbeddedResource Include="UserControls\AddStudent.resx">
       <DependentUpon>AddStudent.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AllStudents.resx">
+      <DependentUpon>AllStudents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Footer.resx">
       <DependentUpon>Footer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MyMenu.resx">
+      <DependentUpon>MyMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\OperationMenu.resx">
       <DependentUpon>OperationMenu.cs</DependentUpon>
@@ -148,11 +211,20 @@
     <EmbeddedResource Include="UserControls\Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\StudentPromotion.resx">
+      <DependentUpon>StudentPromotion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Teachers\AllTeachers.resx">
+      <DependentUpon>AllTeachers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\TitleBar.resx">
       <DependentUpon>TitleBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UserMenu.resx">
       <DependentUpon>UserMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserOptions.resx">
+      <DependentUpon>UserOptions.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -190,6 +262,24 @@
     <None Include="Drawables\Attendance_20px.png" />
     <None Include="Drawables\Hide_20px.png" />
     <None Include="Drawables\User_100px.png" />
+    <None Include="Drawables\dashboardgold.png" />
+    <None Include="Drawables\Studentsgold_20px.png" />
+    <None Include="Drawables\More Thanwhite_20px.png" />
+    <None Include="Drawables\downExpandArrowgold_20px.png" />
+    <None Include="Drawables\Traininggold_20px.png" />
+    <None Include="Drawables\Parentinggold_20px.png" />
+    <None Include="Drawables\Settingsgold_20px.png" />
+    <None Include="Drawables\Graduate_100px.png" />
+    <None Include="Drawables\changepassword_20px.png" />
+    <None Include="Drawables\Logger_20px.png" />
+    <Content Include="Drawables\Accountinggold_20px.png" />
+    <Content Include="Drawables\Attendancegold_20px.png" />
+    <Content Include="Drawables\Booksgold_20px.png" />
+    <Content Include="Drawables\Classroomgold_20px.png" />
+    <Content Include="Drawables\Classroom_20px.png" />
+    <Content Include="Drawables\Course Assigngold_20px.png" />
+    <Content Include="Drawables\More Thangold_20px.png" />
+    <Content Include="Drawables\Workflowgold_20px.png" />
     <Content Include="informationbox.license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

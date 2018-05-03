@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EduPortal.UserControls
+namespace EduPortal.UserControls.Teachers
 {
-    public partial class AllStudents : UserControl
+    public partial class AddTeacher : UserControl
     {
-        public AllStudents()
+        public AddTeacher()
         {
             InitializeComponent();
-        }
-
-        private void bunifuImageButton1_Click(object sender, EventArgs e)
-        {
-            Visible = false;
         }
     }
 }

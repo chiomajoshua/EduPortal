@@ -3,13 +3,12 @@ using System.Windows.Forms;
 
 namespace EduPortal.UserControls
 {
-    public partial class AddStudent : UserControl
+    public partial class StudentPromotion : UserControl
     {
-        public AddStudent()
+        public StudentPromotion()
         {
             InitializeComponent();
         }
-
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {

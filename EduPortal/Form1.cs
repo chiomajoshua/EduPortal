@@ -35,5 +35,17 @@ namespace EduPortal
             //var m = (panel3.Size.Width - settings1.Size.Width) / 2;
             //settings1.Location = new Point(m, settings1.Location.Y);
         }
+
+        private void titleBar1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void titleBar1_Click(object sender, EventArgs e)
+        {
+            var customermenu = new UserOptions();
+          customermenu.ShowDialog(this);
+          
+        }
     }
 }
